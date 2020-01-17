@@ -1,0 +1,562 @@
+body {
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0rem;
+}
+
+input,
+button {
+  outline: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif !important;
+  color: #fff;
+  margin: 0px;
+}
+
+i {
+  color: white;
+}
+
+footer {
+  padding-left: 90px;
+}
+
+.main-button {
+  padding: 5%;
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+  font-size: 14pt;
+  background: none;
+  background: none;
+  transition: all 0.4s ease, transform 0.2s ease;
+  outline: none;
+}
+
+.main-button:active {
+  background: #e0e0e0;
+  transform: scale(0.9);
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://c.pshere.com/photos/30/a0/assorted_blurred_background_boutique_business_close_up_clothes_clothes_hanger_clothing-1000427.jpg!d);
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+#secondary-p {
+  padding-bottom: 5%;
+}
+
+/* Styles of navbar */
+
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.menu {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.search-icon {
+  padding-right: 5%;
+}
+
+.heart {
+  color: #fff;
+}
+
+.search-bar {
+  color: #fff;
+  border: none;
+  background: none;
+  font-size: 12pt;
+  width: 70px;
+}
+
+.nav-main-logo {
+  position: relative;
+  top: -15%;
+  left: -10%;
+}
+
+.search-li {
+  width: 100px;
+}
+
+.search-bar::placeholder {
+  color: white;
+}
+
+/* Styles of heroes */
+
+.secondary-heroes {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#main-hero {
+  margin-top: 10%;
+}
+
+.hero {
+  width: 30%;
+  padding-left: 90px;
+  color: #fff;
+  padding-top: 10%;
+}
+
+#hero-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://c.pshere.com/photos/42/26/blur_blurred_background_boutique_clothes_clothing_colors_display_fabric-1001291.jpg!d);
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+#hero-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://www.tokkoro.com/picsup/3058572-blur_business_clothes_fabric_fashion_hanging_indoors_laundry_model_organized_rack_room_row_shop_shopping_stock_suits_travel_wardrobe_wear.jpg);
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+#alt-hero-1 {
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#alt-hero-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://fashionisers.com/wp-content/uploads/2019/05/best-clothes-racks-1160x720.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20%;
+  padding-right: 10%;
+}
+
+#alt-hero-3 {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.alt-h2 {
+  color: black;
+}
+
+.h2-alt-hero-1 {
+  color: black;
+  padding-left: 17%;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles of first product list */
+
+.p-l-1-item {
+  height: 540px;
+}
+
+#p-l-1-item-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://images-na.ssl-images-amazon.com/images/I/61dTBYGMdPL._UL1000_.jpg)
+      center/cover;
+  width: 33%;
+}
+
+#p-l-1-item-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://cdn.shopify.com/s/files/1/2597/5428/products/LC-Pink-Hoodie-Front_1000x.jpg?v=1512104374)
+      center/cover;
+  width: 34%;
+}
+
+#p-l-1-item-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://media.fjallraven.eu/zoom/7323450349318_FW18_a_high_coast_fall_trousers_m_21.jpg)
+      center/cover;
+  width: 33%;
+}
+
+/* Styles of second product list */
+
+.p-l-2-item {
+  height: 380px;
+  width: 25%;
+}
+
+#p-l-2-item-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057111223)
+      center/cover;
+}
+
+#p-l-2-item-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://images-na.ssl-images-amazon.com/images/I/A1zII8tbzUL._AC_UX466_.jpg)
+      center/cover;
+}
+
+#p-l-2-item-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://cache.mrporter.com/variants/images/4068790126428847/in/w2000_q80.jpg)
+      center/cover;
+}
+
+#p-l-2-item-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://cdn.shopify.com/s/files/1/0255/9429/8467/products/Yeezy-Boost-700-FV5304-UtBlack_2_1000x.jpg?v=1563492463)
+      center/cover;
+}
+
+/* Alternative hero 3 speciall styles */
+
+#q-i-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/alt-hero-3-img-2.jpg) center/cover;
+}
+
+#q-i-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/alt-hero-3-img-4.png) center/cover;
+}
+
+#q-i-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/alt-hero-3-img-5.jpg) center/cover;
+}
+
+#q-i-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/alt-hero-3-img-3.jpg) center/cover;
+}
+
+#alt-h2-hashtag {
+  padding-bottom: 20px;
+  padding-left: 17%;
+}
+
+#row-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 17%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quarter-image {
+  width: 300px;
+  height: 300px;
+}
+
+#shop-1 {
+  padding-left: 90px;
+}
+
+#four-imgs {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#img-flexbox {
+  display: flex;
+}
+
+#four-imgs {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+}
+
+#alt-main-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/alt-hero-3-img-1.jpg) center/cover;
+  width: 600px;
+  height: 600px;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 10%;
+  padding-right: 90px;
+}
+
+.footer-list-h2 {
+  color: black;
+  padding-top: 50px;
+}
+
+.footer-list-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-lists-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#right-icon {
+  color: black;
+  font-size: 16pt;
+  padding-left: 14px;
+  padding-top: 7px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.f-l-li {
+  padding-bottom: 8px;
+}
+
+.main-sign-up {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-size: 20pt;
+  color: black;
+}
+
+.sign-up-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondary-sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-form {
+  width: 70%;
+  height: 40px;
+  font-size: 14pt;
+  color: #8c8c8c;
+  padding-left: 5px;
+}
+
+.sign-in-form::placeholder {
+  color: #8c8c8c;
+  font-size: 14pt;
+  align-items: center;
+}
+
+#mobile-s-in-form {
+  display: none;
+}
+
+.join-button {
+  width: 60px;
+  height: 44px;
+  border: none;
+  background-color: #fff;
+  color: #8c8c8c;
+  font-size: 12pt;
+}
+
+.f-us-icon {
+  color: black;
+  padding-right: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mobile-menu {
+    padding-left: 14%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  #main-hero {
+    padding-top: 0px;
+  }
+
+  .nav-main-logo {
+    font-size: 14pt;
+  }
+
+  .hero {
+    padding-left: 17%;
+    width: 50%;
+  }
+
+  .ad-768 {
+    font-size: 12pt;
+  }
+
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    justify-content: flex-start;
+  }
+
+  #p-l-1-item-1,
+  #p-l-1-item-2,
+  #p-l-1-item-3 {
+    width: 100%;
+  }
+
+  .p-l-1-item {
+    height: 420px;
+  }
+
+  .p-l-2-item {
+    width: 100%;
+  }
+
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #alt-hero-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #alt-hero-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #alt-main-img {
+    width: 100%;
+    height: 380px;
+  }
+
+  #img-flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quarter-image {
+    width: 100%;
+    height: 190px;
+  }
+
+  #four-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #alt-h2-hashtag {
+    display: none;
+  }
+
+  .footer-lists-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .alt-hero-3-h2 {
+    font-size: 1em;
+  }
+
+  #right-icon {
+    font-size: 1em;
+    padding-top: 4px;
+  }
+
+  #row-items {
+    padding-right: 5%;
+  }
+
+  .sign-in-form {
+    font-size: 12pt;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 10%;
+    width: 65%;
+    border: 0px;
+  }
+
+  .sign-in-form::placeholder {
+    font-size: 12pt;
+  }
+
+  .join-button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 10%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-up-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mobile-s-in-form {
+    display: flex;
+  }
+
+  #desktop-s-in-form {
+    display: none;
+  }
+
+  .h2-alt-hero-1 {
+    font-size: 1em;
+  }
+}
