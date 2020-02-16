@@ -12,7 +12,7 @@ window.onload = function() {
   if (input && button) {
     button.addEventListener("click", e => {
       if (input.value !== "") {
-        alert("Вы зарегистрировались!");
+        alert("Welcome! You signed in!!");
       }
     });
   }
