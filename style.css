@@ -643,12 +643,6 @@ footer {
   }
 }
 
-@media (min-width: 768px, max-width: 810px) {
-  .container {
-    width: 80%;
-  }
-}
-
 /* Burger menu */
 
 .overlay {
