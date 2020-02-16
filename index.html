@@ -12,14 +12,10 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <!-- Users stylesheet -->
 
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="res/iphone.css"
-      media="only screen and (max-device-width: 480px)"
-    />
 
     <!-- Fontawesome -->
 
@@ -53,35 +49,69 @@
       rel="shortcut icon"
       href="https://image.flaticon.com/icons/png/512/561/561303.png"
     />
+
+    <!-- Users's script -->
+
+    <script type="text/javascript" src="main.js"></script>
     <title>Modnikky</title>
   </head>
   <body>
     <!-- Header -->
 
     <header>
-      <!-- Navbar -->
+      <div class="container">
+        <!-- Navbar -->
 
-      <!-- Desktop Navbar -->
+        <!-- Desktop Navbar -->
 
-      <section class="desktop-nav">
-        <ul class="menu">
-          <li>
-            <a id="n-a" class="nav-item" href="">NEW ARRIVALS</a>
-          </li>
+        <section class="desktop-nav menu container">
+          <div class="left-nav-divider">
+            <div class="nav-divider">
+              <a id="n-a" class="nav-item" href="">NEW ARRIVALS</a>
+            </div>
 
-          <li>
-            <a id="shop" class="nav-item" href="">SHOP</a>
-          </li>
+            <div class="nav-divider">
+              <a id="shop" class="nav-item" href="">SHOP</a>
+            </div>
 
-          <li>
-            <a id="collect" class="nav-item" href="">COLLECTIONS</a>
-          </li>
+            <div class="nav-divider">
+              <a id="collect" class="nav-item" href="">COLLECTIONS</a>
+            </div>
+          </div>
 
-          <li id="logo-li">
+          <div id="logo-li">
             <h2 class="nav-main-logo">MODNIKKY</h2>
-          </li>
+          </div>
 
-          <li id="search-li">
+          <div class="right-nav-divider">
+            <div id="search-li" class="nav-divider">
+              <i class="fas fa-search" id="search-icon"></i>
+              <input
+                class="search-bar"
+                type="text"
+                name="search"
+                placeholder="SEARCH"
+              />
+            </div>
+
+            <div class="nav-divider">
+              <a id="s-in" class="nav-item" href="">SIGN IN</a>
+            </div>
+
+            <div class="nav-divider">
+              <a id="bag" class="nav-item" href="">BAG (2)</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Mobile Navbar -->
+
+        <section class="mobile-nav mobile-menu">
+          <div id="burger-li">
+            <i class="fas fa-bars burger-menu" onclick="openMobileNav()"></i>
+          </div>
+
+          <div id="search-li-2">
             <i class="fas fa-search"></i>
             <input
               class="search-bar"
@@ -89,64 +119,49 @@
               name="search"
               placeholder="SEARCH"
             />
-          </li>
+          </div>
 
-          <li>
-            <a id="s-in" href="">SIGN IN</a>
-          </li>
-
-          <li>
-            <a id="bag" href="">BAG (2)</a>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Mobile Navbar -->
-
-      <section class="mobile-nav">
-        <ul class="mobile-menu">
-          <li id="burger-li">
-            <i class="fas fa-bars burger-menu"></i>
-          </li>
-
-          <li id="search-li-2">
-            <i class="fas fa-search"></i>
-            <input
-              class="search-bar"
-              type="text"
-              name="search"
-              placeholder="SEARCH"
-            />
-          </li>
-
-          <li id="logo-li">
+          <div id="logo-li">
             <h2 class="nav-main-logo">MODNIKKY</h2>
-          </li>
+          </div>
 
-          <li id="bag-icon">
+          <div id="bag-icon">
             <i class="fas fa-shopping-bag"></i>
-          </li>
+          </div>
 
-          <li id="s-in-icon">
+          <div id="s-in-icon">
             <i class="fas fa-sign-in-alt"></i>
-          </li>
+          </div>
 
-          <li id="heart-icon">
+          <div id="heart-icon">
             <i class="fas fa-heart"></i>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </section>
 
-      <!-- Hero - 1 -->
+        <!-- Hero - 1 -->
 
-      <section class="hero" id="main-hero">
-        <h1>NEW COLLECTION</h1>
-        <p id="secondary-p">
-          Our easiest chuck-on-and-go staples come with a serious style heritage
-           that’s liberating, sexy, comfy and supremely cool.
-        </p>
-        <button class="main-button">SHOP NEW ARRIVALS</button>
-      </section>
+        <section class="hero" id="main-hero">
+          <h1>NEW COLLECTION</h1>
+          <p id="secondary-p">
+            Our easiest chuck-on-and-go staples come with a serious style
+            heritage  that’s liberating, sexy, comfy and supremely cool.
+          </p>
+          <button class="main-button">SHOP NEW ARRIVALS</button>
+        </section>
+
+        <!-- Burger menu -->
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#">Shop</a>
+            <a href="#">New arrivals</a>
+            <a href="#">New colllections</a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main -->
@@ -155,15 +170,17 @@
       <!-- Hero - 2 -->
 
       <div class="secondary-heroes" id="hero-2">
-        <section class="hero">
-          <h2>VINTAGE INSPIRED</h2>
-          <p id="secondary-p">
-            Inspired by the ‘70s and 80’s), we know that if you sift through our
-            vintage inspired collection you’re gonna rock the perfect
-            silhouette.
-          </p>
-          <button class="main-button">SHOP NOW</button>
-        </section>
+        <div class="container">
+          <section class="hero">
+            <h2>VINTAGE INSPIRED</h2>
+            <p id="secondary-p">
+              Inspired by the ‘70s and 80’s, we know that if you sift through
+              our vintage inspired collection you’re gonna rock the perfect
+              silhouette.
+            </p>
+            <button class="main-button">SHOP NOW</button>
+          </section>
+        </div>
       </div>
 
       <!-- Product list - 1-->
@@ -191,46 +208,50 @@
       <!-- Hero - 3 -->
 
       <div class="secondary-heroes" id="hero-3">
-        <section class="hero">
-          <h2>SUSTAINABLE DENIM</h2>
-          <p id="secondary-p">
-            What started as a true ‘80s vintage pair of jeans, finished as a
-            re-energised, wider leg vintage jean with versatile detailing.
-          </p>
-          <button class="main-button">SHOP DENIM</button>
-        </section>
+        <div class="container">
+          <section class="hero">
+            <h2>SUSTAINABLE DENIM</h2>
+            <p id="secondary-p">
+              What started as a true ‘80s vintage pair of jeans, finished as a
+              re-energised, wider leg vintage jean with versatile detailing.
+            </p>
+            <button class="main-button">SHOP DENIM</button>
+          </section>
+        </div>
       </div>
 
       <!-- Alternative hero - 1 -->
 
       <div class="secondary-heroes" id="alt-hero-1">
-        <section>
-          <h2 class="h2-alt-hero-1">NEW ARRIVALS</h2>
+        <div class="container">
+          <section>
+            <h2 class="h2-alt-hero-1">NEW ARRIVALS</h2>
 
-          <div class="product-list">
-            <!-- First item -->
+            <div class="product-list">
+              <!-- First item -->
 
-            <section class="p-l-2-item" id="p-l-2-item-1"></section>
+              <section class="p-l-2-item" id="p-l-2-item-1"></section>
 
-            <!-- Second item -->
+              <!-- Second item -->
 
-            <section class="p-l-2-item" id="p-l-2-item-2">
-              <br />
-            </section>
+              <section class="p-l-2-item" id="p-l-2-item-2">
+                <br />
+              </section>
 
-            <!-- Third item -->
+              <!-- Third item -->
 
-            <section class="p-l-2-item" id="p-l-2-item-3">
-              <br />
-            </section>
+              <section class="p-l-2-item" id="p-l-2-item-3">
+                <br />
+              </section>
 
-            <!-- Fourth item -->
+              <!-- Fourth item -->
 
-            <section class="p-l-2-item" id="p-l-2-item-4">
-              <br />
-            </section>
-          </div>
-        </section>
+              <section class="p-l-2-item" id="p-l-2-item-4">
+                <br />
+              </section>
+            </div>
+          </section>
+        </div>
       </div>
 
       <!-- Alternative hero - 2 -->
@@ -294,19 +315,14 @@
         <div class="sign-up-block">
           <input
             class="sign-in-form"
-            id="desktop-s-in-form"
-            type="text"
-            name="search"
-            placeholder="Your email address"
-          />
-          <input
-            class="sign-in-form"
-            id="mobile-s-in-form"
+            id="s-in-form"
             type="text"
             name="search"
             placeholder="Your email"
           />
-          <button class="join-button">JOIN</button>
+          <button id="join-button">
+            JOIN
+          </button>
         </div>
       </section>
 
@@ -317,46 +333,85 @@
           <div class="footer-list-div">
             <h2 class="footer-list-h2">CUSTOMER SERVICE</h2>
             <ul class="footer-list">
-              <li class="f-l-li">CONTACT</li>
-              <li class="f-l-li">TRACK ORDER</li>
-              <li class="f-l-li">DELIVERY & RETURNS</li>
-              <li class="f-l-li">PAYMENT</li>
-              <li class="f-l-li">MAKE A RETURN</li>
-              <li class="f-l-li">FAQ</li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">CONTACT</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">TRACK ORDER</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">DELIVERY & RETURNS</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">PAYMENT</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">MAKE A RETURN</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">FAQ</a>
+              </li>
             </ul>
           </div>
           <div class="footer-list-div">
             <h2 class="footer-list-h2">INFO</h2>
             <ul class="footer-list">
-              <li class="f-l-li">GIFT VOUCHERS</li>
-              <li class="f-l-li">SIZE GUIDE</li>
-              <li class="f-l-li">CEREERS AT MODNIKKY</li>
-              <li class="f-l-li">ABOUT US</li>
-              <li class="f-l-li">LEGAL POLICES</li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">GIFT VOUCHERS</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">SIZE GUIDE</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">CEREERS AT MODNIKKY</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">ABOUT US</a>
+              </li>
+              <li class="f-l-li">
+                <a href="#" class="f-a">EGAL POLICES</a>
+              </li>
             </ul>
           </div>
           <div class="footer-list-div">
             <h2 class="footer-list-h2">FOLLOW US</h2>
             <ul class="footer-list">
               <li class="f-l-li">
-                <i class="fab fa-facebook-square f-us-icon"></i>FACEBOOK
+                <a href="#" class="f-a">
+                  <i class="fab fa-facebook-square f-us-icon"></i>FACEBOOK
+                </a>
               </li>
               <li class="f-l-li">
-                <i class="fab fa-odnoklassniki-square f-us-icon"></i
-                >ODNOKLASSNIKI
+                <a href="#" class="f-a">
+                  <i class="fab fa-odnoklassniki-square f-us-icon"></i
+                  >ODNOKLASSNIKI
+                </a>
               </li>
               <li class="f-l-li">
-                <i class="fab fa-instagram f-us-icon"></i>INSTAGRAM
+                <a href="#" class="f-a">
+                  <i class="fab fa-instagram f-us-icon"></i>INSTAGRAM
+                </a>
               </li>
             </ul>
           </div>
           <div class="footer-list-div">
             <h2 class="footer-list-h2">CONTACT US</h2>
             <ul class="footer-list">
-              <li class="f-l-li">hello@modnikky.com</li>
-              <li class="f-l-li">+7 910 832 26XX</li>
               <li class="f-l-li">
-                DVisit us at Shalalaeva 23, Bologoe, Russia
+                <a href="mailto:hello@modnikky.com" class="f-a">
+                  hello@modnikky.com</a
+                >
+              </li>
+              <li class="f-l-li">
+                <a href="tel:+7 910 832 26XX" class="f-a">+7 910 832 26XX</a>
+              </li>
+              <li class="f-l-li">
+                <a
+                  href="https://www.google.com.ua/maps/place/%D0%91%D0%BE%D0%BB%D0%BE%D0%B3%D0%BE%D0%B5,+%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F/@57.8741945,34.0057906,12z/data=!3m1!4b1!4m5!3m4!1s0x46b9e8961a7193c9:0xe3bf68566eb5acf8!8m2!3d57.8758452!4d34.0719771?hl=ru"
+                  class="f-a"
+                >
+                  Visit us at Shalalaeva 23, Bologoe, Russia
+                </a>
               </li>
             </ul>
           </div>
@@ -364,21 +419,15 @@
       </section>
     </footer>
 
-    <!-- Script -->
+    <!-- Manifest script -->
 
     <script>
-      // This is the "Offline page" service worker
-
-      // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-      // Check compatibility for the browser we're running this in
       if ("serviceWorker" in navigator) {
         if (navigator.serviceWorker.controller) {
           console.log(
             "[PWA Builder] active service worker found, no need to register"
           );
         } else {
-          // Register the service worker
           navigator.serviceWorker
             .register("pwabuilder-sw.js", {
               scope: "./"
@@ -392,5 +441,26 @@
         }
       }
     </script>
+
+    <!-- JQuery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
