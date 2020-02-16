@@ -197,7 +197,7 @@ header {
 /* Styles of first product list */
 
 .p-l-1-item {
-  height: 540px;
+  height: 590px;
 }
 
 #p-l-1-item-1 {
@@ -224,7 +224,7 @@ header {
 /* Styles of second product list */
 
 .p-l-2-item {
-  height: 380px;
+  height: 590px;
   width: 25%;
 }
 
@@ -482,7 +482,7 @@ footer {
   }
 
   .p-l-2-item {
-    width: 78%;
+    width: 100%;
   }
 
   .product-list {
@@ -617,6 +617,29 @@ footer {
 
   .nav-divider {
     padding-left: 5px;
+  }
+}
+
+@media (max-width: 810px) {
+  .container {
+    width: 100%;
+  }
+
+  .nav-item {
+    font-size: 11pt;
+  }
+
+  .nav-divider {
+    padding-left: 3px;
+  }
+
+  .search-bar::placeholder {
+    color: white;
+    font-size: 11pt;
+  }
+
+  #search-icon {
+    font-size: 11pt;
   }
 }
 
