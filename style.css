@@ -620,25 +620,8 @@ footer {
   }
 }
 
-@media (max-width: 810px) {
-  .container {
-    width: 100%;
-  }
-
-  .nav-item {
-    font-size: 11pt;
-  }
-
-  .nav-divider {
-    padding-left: 3px;
-  }
-
-  .search-bar::placeholder {
-    color: white;
-    font-size: 11pt;
-  }
-
-  #search-icon {
+@media (max-width: 1050px) {
+  .f-a {
     font-size: 11pt;
   }
 }
