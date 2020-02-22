@@ -597,9 +597,9 @@ footer {
 }
 
 @media (max-width: 960px) {
-  .container {
+  /* .container {
     width: 720px;
-  }
+  } */
 
   .nav-divider {
     padding-left: 5px;
@@ -659,7 +659,7 @@ footer {
   }
 
   .f-a {
-    font-size: 9pt;
+    font-size: 10pt;
   }
 
   .footer-list-div {
