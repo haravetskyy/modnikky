@@ -276,14 +276,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://images-na.ssl-images-amazon.com/images/I/61dTBYGMdPL._UL1000_.jpg)
-      center/cover;
+    url(img/item-1.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://images-na.ssl-images-amazon.com/images/I/61dTBYGMdPL._UL1000_.jpg)
-      center/cover;
+    url(img/item-1.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://images-na.ssl-images-amazon.com/images/I/61dTBYGMdPL._UL1000_.jpg)
-      center/cover;
+    url(img/item-1.avif) center/cover;
   width: 33%;
 }
 
@@ -295,14 +292,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://cdn.shopify.com/s/files/1/2597/5428/products/LC-Pink-Hoodie-Front_1000x.jpg?v=1512104374)
-      center/cover;
+    url(img/item-2.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn.shopify.com/s/files/1/2597/5428/products/LC-Pink-Hoodie-Front_1000x.jpg?v=1512104374)
-      center/cover;
+    url(img/item-2.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn.shopify.com/s/files/1/2597/5428/products/LC-Pink-Hoodie-Front_1000x.jpg?v=1512104374)
-      center/cover;
+    url(img/item-2.avif) center/cover;
   width: 34%;
 }
 
@@ -314,14 +308,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://media.fjallraven.eu/zoom/7323450349318_FW18_a_high_coast_fall_trousers_m_21.jpg)
-      center/cover;
+    url(img/item-3.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://media.fjallraven.eu/zoom/7323450349318_FW18_a_high_coast_fall_trousers_m_21.jpg)
-      center/cover;
+    url(img/item-3.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://media.fjallraven.eu/zoom/7323450349318_FW18_a_high_coast_fall_trousers_m_21.jpg)
-      center/cover;
+    url(img/item-3.avif) center/cover;
   width: 33%;
 }
 
@@ -340,13 +331,13 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057111223)
+    url(img/item-3-1.avif)
       center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057111223)
+    url(img/item-3-1.avif)
       center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6720057111223)
+    url(img/item-3-1.avif)
       center/cover;
 }
 
@@ -358,13 +349,13 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://images-na.ssl-images-amazon.com/images/I/A1zII8tbzUL._AC_UX466_.jpg)
+    url(img/item-3-2.avif)
       center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://images-na.ssl-images-amazon.com/images/I/A1zII8tbzUL._AC_UX466_.jpg)
+    url(img/item-3-2.avif)
       center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://images-na.ssl-images-amazon.com/images/I/A1zII8tbzUL._AC_UX466_.jpg)
+    url(img/item-3-2.avif)
       center/cover;
 }
 
@@ -376,13 +367,13 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://cache.mrporter.com/variants/images/4068790126428847/in/w2000_q80.jpg)
+    url(img/item-3-3.avif)
       center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cache.mrporter.com/variants/images/4068790126428847/in/w2000_q80.jpg)
+    url(img/item-3-3.avif)
       center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cache.mrporter.com/variants/images/4068790126428847/in/w2000_q80.jpg)
+    url(img/item-3-3.avif)
       center/cover;
 }
 
@@ -394,13 +385,13 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(https://cdn.shopify.com/s/files/1/0255/9429/8467/products/Yeezy-Boost-700-FV5304-UtBlack_2_1000x.jpg?v=1563492463)
+    url(img/item-3-4.avif)
       center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn.shopify.com/s/files/1/0255/9429/8467/products/Yeezy-Boost-700-FV5304-UtBlack_2_1000x.jpg?v=1563492463)
+    url(img/item-3-4.avif)
       center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(https://cdn.shopify.com/s/files/1/0255/9429/8467/products/Yeezy-Boost-700-FV5304-UtBlack_2_1000x.jpg?v=1563492463)
+    url(img/item-3-4.avif)
       center/cover;
 }
 
@@ -414,11 +405,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(./img/alt-hero-3-img-2.jpg) center/cover;
+    url(img/item-2-1.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-2.jpg) center/cover;
+    url(img/item-2-1.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-2.jpg) center/cover;
+    url(img/item-2-1.avif) center/cover;
 }
 
 #q-i-2 {
@@ -429,11 +420,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(./img/alt-hero-3-img-4.png) center/cover;
+    url(img/item-2-2.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-4.png) center/cover;
+    url(img/item-2-2.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-4.png) center/cover;
+    url(img/item-2-2.avif) center/cover;
 }
 
 #q-i-3 {
@@ -444,11 +435,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(./img/alt-hero-3-img-5.jpg) center/cover;
+    url(img/item-2-3.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-5.jpg) center/cover;
+    url(img/item-2-3.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-5.jpg) center/cover;
+    url(img/item-2-3.avif) center/cover;
 }
 
 #q-i-4 {
@@ -459,11 +450,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(./img/alt-hero-3-img-3.jpg) center/cover;
+    url(img/item-2-5.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-3.jpg) center/cover;
+    url(img/item-2-5.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-3.jpg) center/cover;
+    url(img/item-2-5.avif) center/cover;
 }
 
 #alt-h2-hashtag {
@@ -541,11 +532,11 @@ header {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url(./img/alt-hero-3-img-1.jpg) center/cover;
+    url(img/item-2-3.avif) center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-1.jpg) center/cover;
+    url(img/item-2-3.avif) center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/alt-hero-3-img-1.jpg) center/cover;
+    url(img/item-2-4.avif) center/cover;
   width: 600px;
   height: 600px;
 }
